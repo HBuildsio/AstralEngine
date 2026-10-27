@@ -10,8 +10,8 @@ from urllib.request import urlopen
 
 class VulkanConfiguration:
     requiredVulkanVersion = "1.3."
-    installVulkanVersion = "1.3.216.0"
-    vulkanDirectory = "./Hazel/vendor/VulkanSDK"
+    installVulkanVersion = "1.3.296.0"
+    vulkanDirectory = "./Astral/vendor/VulkanSDK"
 
     @classmethod
     def Validate(cls):
@@ -21,7 +21,7 @@ class VulkanConfiguration:
             
         if (not cls.CheckVulkanSDKDebugLibs()):
             print("\nNo Vulkan SDK debug libs found. Install Vulkan SDK with debug libs.")
-            print("(see docs.hazelengine.com/GettingStarted for more info).")
+            print("(see docs.astralengine.com/GettingStarted for more info).")
             print("Debug configuration disabled.")
 
     @classmethod

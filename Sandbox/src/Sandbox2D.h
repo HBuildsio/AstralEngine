@@ -1,8 +1,8 @@
 #pragma once
 
-#include "Hazel.h"
+#include "Astral.h"
 
-class Sandbox2D : public Hazel::Layer
+class Sandbox2D : public Astral::Layer
 {
 public:
 	Sandbox2D();
@@ -11,17 +11,17 @@ public:
 	virtual void OnAttach() override;
 	virtual void OnDetach() override;
 
-	void OnUpdate(Hazel::Timestep ts) override;
+	void OnUpdate(Astral::Timestep ts) override;
 	virtual void OnImGuiRender() override;
-	void OnEvent(Hazel::Event& e) override;
+	void OnEvent(Astral::Event& e) override;
 private:
-	Hazel::OrthographicCameraController m_CameraController;
+	Astral::OrthographicCameraController m_CameraController;
 	
 	// Temp
-	Hazel::Ref<Hazel::VertexArray> m_SquareVA;
-	Hazel::Ref<Hazel::Shader> m_FlatColorShader;
+	Astral::Ref<Astral::VertexArray> m_SquareVA;
+	Astral::Ref<Astral::Shader> m_FlatColorShader;
 
-	Hazel::Ref<Hazel::Texture2D> m_CheckerboardTexture;
+	Astral::Ref<Astral::Texture2D> m_CheckerboardTexture;
 
 	glm::vec4 m_SquareColor = { 0.2f, 0.3f, 0.8f, 1.0f };
 };

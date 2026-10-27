@@ -1,10 +1,11 @@
-project "Hazel-ScriptCore"
+project "Astral-ScriptCore"
 	kind "SharedLib"
 	language "C#"
 	dotnetframework "4.7.2"
 
-	targetdir ("%{wks.location}/Hazelnut/Resources/Scripts")
-	objdir ("%{wks.location}/Hazelnut/Resources/Scripts/Intermediates")
+	targetdir ("%{wks.location}/AstralCore/Resources/Scripts")
+	objdir ("%{wks.location}/AstralCore/Resources/Scripts/Intermediates")
+	targetname "Astral-ScriptCore"
 
 	files 
 	{

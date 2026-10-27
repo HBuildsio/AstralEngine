@@ -4,73 +4,73 @@
     <Filter Include="..">
       <UniqueIdentifier>{61705900-4DFC-870B-B6AA-880BA255880B}</UniqueIdentifier>
     </Filter>
-    <Filter Include="..\Hazel">
-      <UniqueIdentifier>{24146F37-10E1-C942-39FA-B7EA2526FFD0}</UniqueIdentifier>
+    <Filter Include="..\Astral">
+      <UniqueIdentifier>{57214016-C38B-F48C-0CCA-A5327873D2E1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="..\Hazel\vendor">
-      <UniqueIdentifier>{011A063F-6DA5-7303-76B6-F6F7E2C0CF03}</UniqueIdentifier>
+    <Filter Include="..\Astral\vendor">
+      <UniqueIdentifier>{D4EFA391-C0E8-C2E3-E91A-A868D572A2EF}</UniqueIdentifier>
     </Filter>
-    <Filter Include="..\Hazel\vendor\Box2D">
-      <UniqueIdentifier>{CF803715-3BED-F20F-04E1-8A6D700C1578}</UniqueIdentifier>
+    <Filter Include="..\Astral\vendor\Box2D">
+      <UniqueIdentifier>{E22861D0-CE22-8A22-B78F-2033A328F08E}</UniqueIdentifier>
     </Filter>
-    <Filter Include="..\Hazel\vendor\GLFW">
-      <UniqueIdentifier>{E03DB63E-CCCC-3F08-75EB-5303615950AE}</UniqueIdentifier>
+    <Filter Include="..\Astral\vendor\GLFW">
+      <UniqueIdentifier>{93AF7182-FF1B-2D7D-C80F-C5DA343B4FE5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="..\Hazel\vendor\Glad">
-      <UniqueIdentifier>{88C9B63E-7458-4008-1D77-540309E550AE}</UniqueIdentifier>
+    <Filter Include="..\Astral\vendor\Glad">
+      <UniqueIdentifier>{3B3B7282-A7A7-2D7D-709B-C5DADCC64FE5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="..\Hazel\vendor\imgui">
-      <UniqueIdentifier>{2BE4F717-9750-B312-6044-4B70CC6FD57A}</UniqueIdentifier>
+    <Filter Include="..\Astral\vendor\imgui">
+      <UniqueIdentifier>{3E8C21D3-2A86-4A25-13F3-E035FF8BB091}</UniqueIdentifier>
     </Filter>
-    <Filter Include="..\Hazel\vendor\msdf-atlas-gen">
-      <UniqueIdentifier>{C3E9631D-AF0F-2E84-9855-B34F841A5350}</UniqueIdentifier>
+    <Filter Include="..\Astral\vendor\msdf-atlas-gen">
+      <UniqueIdentifier>{3657B3B2-A23A-C2F2-AB3D-F02E17A08843}</UniqueIdentifier>
     </Filter>
-    <Filter Include="..\Hazel\vendor\msdf-atlas-gen\msdfgen">
-      <UniqueIdentifier>{36753508-22C7-0CF8-0BE6-4908F7D625E1}</UniqueIdentifier>
+    <Filter Include="..\Astral\vendor\msdf-atlas-gen\msdfgen">
+      <UniqueIdentifier>{A9A588CC-1535-4AB7-1E31-2BCF8A3F85C3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="..\Hazel\vendor\yaml-cpp">
-      <UniqueIdentifier>{D35154DB-BF76-A35B-E8C1-88EBD445A279}</UniqueIdentifier>
+    <Filter Include="..\Astral\vendor\yaml-cpp">
+      <UniqueIdentifier>{0665078E-7227-3B18-BBD7-C9A427D913F6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="..\Hazel-ScriptCore">
-      <UniqueIdentifier>{0F90FBDB-7BF1-D8E9-045F-1F9C70BF0FA9}</UniqueIdentifier>
+    <Filter Include="..\Astral-ScriptCore">
+      <UniqueIdentifier>{62176652-4EA6-EF1B-F7C4-0317E33200C2}</UniqueIdentifier>
     </Filter>
-    <Filter Include="..\Hazelnut">
-      <UniqueIdentifier>{1B351CC0-87EA-94B5-10DF-8E8C7C938BB9}</UniqueIdentifier>
+    <Filter Include="..\AstralCore">
+      <UniqueIdentifier>{8099B591-EC59-31C8-B594-7A45211476A4}</UniqueIdentifier>
     </Filter>
     <Filter Include="..\Sandbox">
       <UniqueIdentifier>{3F7B6B1D-2B33-AD6A-943A-86C68011485B}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\Hazel-ScriptCore\premake5.lua">
-      <Filter>..\Hazel-ScriptCore</Filter>
+    <None Include="..\..\Astral-ScriptCore\premake5.lua">
+      <Filter>..\Astral-ScriptCore</Filter>
     </None>
-    <None Include="..\..\Hazel\premake5.lua">
-      <Filter>..\Hazel</Filter>
+    <None Include="..\..\Astral\premake5.lua">
+      <Filter>..\Astral</Filter>
     </None>
-    <None Include="..\..\Hazel\vendor\Box2D\premake5.lua">
-      <Filter>..\Hazel\vendor\Box2D</Filter>
+    <None Include="..\..\Astral\vendor\Box2D\premake5.lua">
+      <Filter>..\Astral\vendor\Box2D</Filter>
     </None>
-    <None Include="..\..\Hazel\vendor\GLFW\premake5.lua">
-      <Filter>..\Hazel\vendor\GLFW</Filter>
+    <None Include="..\..\Astral\vendor\GLFW\premake5.lua">
+      <Filter>..\Astral\vendor\GLFW</Filter>
     </None>
-    <None Include="..\..\Hazel\vendor\Glad\premake5.lua">
-      <Filter>..\Hazel\vendor\Glad</Filter>
+    <None Include="..\..\Astral\vendor\Glad\premake5.lua">
+      <Filter>..\Astral\vendor\Glad</Filter>
     </None>
-    <None Include="..\..\Hazel\vendor\imgui\premake5.lua">
-      <Filter>..\Hazel\vendor\imgui</Filter>
+    <None Include="..\..\Astral\vendor\imgui\premake5.lua">
+      <Filter>..\Astral\vendor\imgui</Filter>
     </None>
-    <None Include="..\..\Hazel\vendor\msdf-atlas-gen\msdfgen\premake5.lua">
-      <Filter>..\Hazel\vendor\msdf-atlas-gen\msdfgen</Filter>
+    <None Include="..\..\Astral\vendor\msdf-atlas-gen\msdfgen\premake5.lua">
+      <Filter>..\Astral\vendor\msdf-atlas-gen\msdfgen</Filter>
     </None>
-    <None Include="..\..\Hazel\vendor\msdf-atlas-gen\premake5.lua">
-      <Filter>..\Hazel\vendor\msdf-atlas-gen</Filter>
+    <None Include="..\..\Astral\vendor\msdf-atlas-gen\premake5.lua">
+      <Filter>..\Astral\vendor\msdf-atlas-gen</Filter>
     </None>
-    <None Include="..\..\Hazel\vendor\yaml-cpp\premake5.lua">
-      <Filter>..\Hazel\vendor\yaml-cpp</Filter>
+    <None Include="..\..\Astral\vendor\yaml-cpp\premake5.lua">
+      <Filter>..\Astral\vendor\yaml-cpp</Filter>
     </None>
-    <None Include="..\..\Hazelnut\premake5.lua">
-      <Filter>..\Hazelnut</Filter>
+    <None Include="..\..\AstralCore\premake5.lua">
+      <Filter>..\AstralCore</Filter>
     </None>
     <None Include="..\..\Sandbox\premake5.lua">
       <Filter>..\Sandbox</Filter>

@@ -3,7 +3,9 @@ include "Dependencies.lua"
 
 workspace "AstralEngine"
 	architecture "x86_64"
-	startproject "Hazelnut"
+	startproject "AstralCore"
+	toolset "v145"
+	defaultplatform "x64"
 
 	configurations
 	{
@@ -26,20 +28,20 @@ outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
 group "Dependencies"
 	include "vendor/premake"
-	include "Hazel/vendor/Box2D"
-	include "Hazel/vendor/GLFW"
-	include "Hazel/vendor/Glad"
-	include "Hazel/vendor/imgui"
-	include "Hazel/vendor/yaml-cpp"
+	include "Astral/vendor/Box2D"
+	include "Astral/vendor/GLFW"
+	include "Astral/vendor/Glad"
+	include "Astral/vendor/imgui"
+	include "Astral/vendor/yaml-cpp"
 group ""
 
 group "Core"
-	include "Hazel"
-	include "Hazel-ScriptCore"
+	include "Astral"
+	include "Astral-ScriptCore"
 group ""
 
 group "Tools"
-	include "Hazelnut"
+	include "AstralCore"
 group ""
 
 group "Misc"

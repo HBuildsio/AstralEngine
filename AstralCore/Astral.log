@@ -1,0 +1,44 @@
+[22:35:55] [info] ASTRAL: Creating window Astral Engine (1600, 900)
+[22:35:56] [info] ASTRAL: OpenGL Info:
+[22:35:56] [info] ASTRAL:   Vendor: ATI Technologies Inc.
+[22:35:56] [info] ASTRAL:   Renderer: AMD Radeon(TM) Vega 8 Graphics
+[22:35:56] [info] ASTRAL:   Version: 4.6.13596 Compatibility Profile/Debug Context 20.10.32 27.20.1032.2
+[22:35:56] [trace] ASTRAL: OpenGLShader::Reflect - GL_VERTEX_SHADER assets/shaders/Renderer2D_Quad.glsl
+[22:35:56] [trace] ASTRAL:     1 uniform buffers
+[22:35:56] [trace] ASTRAL:     0 resources
+[22:35:56] [trace] ASTRAL: Uniform buffers:
+[22:35:56] [trace] ASTRAL:   _46_48
+[22:35:56] [trace] ASTRAL:     Size = 64
+[22:35:56] [trace] ASTRAL:     Binding = 0
+[22:35:56] [trace] ASTRAL:     Members = 1
+[22:35:56] [trace] ASTRAL: OpenGLShader::Reflect - GL_FRAGMENT_SHADER assets/shaders/Renderer2D_Quad.glsl
+[22:35:56] [trace] ASTRAL:     0 uniform buffers
+[22:35:56] [trace] ASTRAL:     1 resources
+[22:35:56] [trace] ASTRAL: Uniform buffers:
+[22:35:56] [warning] ASTRAL: Shader creation took 55.5252 ms
+[22:35:56] [trace] ASTRAL: OpenGLShader::Reflect - GL_VERTEX_SHADER assets/shaders/Renderer2D_Circle.glsl
+[22:35:56] [trace] ASTRAL:     1 uniform buffers
+[22:35:56] [trace] ASTRAL:     0 resources
+[22:35:56] [trace] ASTRAL: Uniform buffers:
+[22:35:56] [trace] ASTRAL:   _47_49
+[22:35:56] [trace] ASTRAL:     Size = 64
+[22:35:56] [trace] ASTRAL:     Binding = 0
+[22:35:56] [trace] ASTRAL:     Members = 1
+[22:35:56] [trace] ASTRAL: OpenGLShader::Reflect - GL_FRAGMENT_SHADER assets/shaders/Renderer2D_Circle.glsl
+[22:35:56] [trace] ASTRAL:     0 uniform buffers
+[22:35:56] [trace] ASTRAL:     0 resources
+[22:35:56] [trace] ASTRAL: Uniform buffers:
+[22:35:56] [warning] ASTRAL: Shader creation took 10.4281 ms
+[22:35:56] [trace] ASTRAL: OpenGLShader::Reflect - GL_VERTEX_SHADER assets/shaders/Renderer2D_Line.glsl
+[22:35:56] [trace] ASTRAL:     1 uniform buffers
+[22:35:56] [trace] ASTRAL:     0 resources
+[22:35:56] [trace] ASTRAL: Uniform buffers:
+[22:35:56] [trace] ASTRAL:   _30_32
+[22:35:56] [trace] ASTRAL:     Size = 64
+[22:35:56] [trace] ASTRAL:     Binding = 0
+[22:35:56] [trace] ASTRAL:     Members = 1
+[22:35:56] [trace] ASTRAL: OpenGLShader::Reflect - GL_FRAGMENT_SHADER assets/shaders/Renderer2D_Line.glsl
+[22:35:56] [trace] ASTRAL:     0 uniform buffers
+[22:35:56] [trace] ASTRAL:     0 resources
+[22:35:56] [trace] ASTRAL: Uniform buffers:
+[22:35:56] [warning] ASTRAL: Shader creation took 7.5315 ms

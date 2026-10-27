@@ -1,14 +1,14 @@
-#include <Hazel.h>
-#include <Hazel/Core/EntryPoint.h>
+#include <Astral.h>
+#include <Astral/Core/EntryPoint.h>
 
 #include "Sandbox2D.h"
 #include "ExampleLayer.h"
 
-class Sandbox : public Hazel::Application
+class Sandbox : public Astral::Application
 {
 public:
-	Sandbox(const Hazel::ApplicationSpecification& specification)
-		: Hazel::Application(specification)
+	Sandbox(const Astral::ApplicationSpecification& specification)
+		: Astral::Application(specification)
 	{
 		// PushLayer(new ExampleLayer());
 		PushLayer(new Sandbox2D());
@@ -19,11 +19,11 @@ public:
 	}
 };
 
-Hazel::Application* Hazel::CreateApplication(Hazel::ApplicationCommandLineArgs args)
+Astral::Application* Astral::CreateApplication(Astral::ApplicationCommandLineArgs args)
 {
 	ApplicationSpecification spec;
 	spec.Name = "Sandbox";
-	spec.WorkingDirectory = "../Hazelnut";
+	spec.WorkingDirectory = "../AstralCore";
 	spec.CommandLineArgs = args;
 
 	return new Sandbox(spec);

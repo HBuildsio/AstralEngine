@@ -1,30 +1,31 @@
 
--- Hazel Dependencies
+-- Astral Dependencies
 
 VULKAN_SDK = os.getenv("VULKAN_SDK")
 
 IncludeDir = {}
-IncludeDir["stb_image"] = "%{wks.location}/Hazel/vendor/stb_image"
-IncludeDir["yaml_cpp"] = "%{wks.location}/Hazel/vendor/yaml-cpp/include"
-IncludeDir["Box2D"] = "%{wks.location}/Hazel/vendor/Box2D/include"
-IncludeDir["GLFW"] = "%{wks.location}/Hazel/vendor/GLFW/include"
-IncludeDir["Glad"] = "%{wks.location}/Hazel/vendor/Glad/include"
-IncludeDir["ImGui"] = "%{wks.location}/Hazel/vendor/ImGui"
-IncludeDir["ImGuizmo"] = "%{wks.location}/Hazel/vendor/ImGuizmo"
-IncludeDir["glm"] = "%{wks.location}/Hazel/vendor/glm"
-IncludeDir["entt"] = "%{wks.location}/Hazel/vendor/entt/include"
-IncludeDir["mono"] = "%{wks.location}/Hazel/vendor/mono/include"
-IncludeDir["shaderc"] = "%{wks.location}/Hazel/vendor/shaderc/include"
-IncludeDir["SPIRV_Cross"] = "%{wks.location}/Hazel/vendor/SPIRV-Cross"
+IncludeDir["stb_image"] = "%{wks.location}/Astral/vendor/stb_image"
+IncludeDir["yaml_cpp"] = "%{wks.location}/Astral/vendor/yaml-cpp/include"
+IncludeDir["Box2D"] = "%{wks.location}/Astral/vendor/Box2D/include"
+IncludeDir["GLFW"] = "%{wks.location}/Astral/vendor/GLFW/include"
+IncludeDir["Glad"] = "%{wks.location}/Astral/vendor/Glad/include"
+IncludeDir["ImGui"] = "%{wks.location}/Astral/vendor/ImGui"
+IncludeDir["ImGuizmo"] = "%{wks.location}/Astral/vendor/ImGuizmo"
+IncludeDir["glm"] = "%{wks.location}/Astral/vendor/glm"
+IncludeDir["entt"] = "%{wks.location}/Astral/vendor/entt/include"
+IncludeDir["mono"] = "%{wks.location}/Astral/vendor/mono/include"
+IncludeDir["shaderc"] = "%{wks.location}/Astral/vendor/shaderc/include"
+IncludeDir["SPIRV_Cross"] = "%{wks.location}/Astral/vendor/SPIRV-Cross"
 IncludeDir["VulkanSDK"] = "%{VULKAN_SDK}/Include"
 
 LibraryDir = {}
 
 LibraryDir["VulkanSDK"] = "%{VULKAN_SDK}/Lib"
-LibraryDir["mono"] = "%{wks.location}/Hazel/vendor/mono/lib/%{cfg.buildcfg}"
+LibraryDir["mono"] = "%{wks.location}/Astral/vendor/mono/lib/%{cfg.buildcfg}"
 
 Library = {}
-Library["mono"] = "%{LibraryDir.mono}/libmono-static-sgen.lib"
+Library["mono_Debug"] = "%{wks.location}/Astral/vendor/mono/lib/Debug/libmono-static-sgen.lib"
+Library["mono_Release"] = "%{wks.location}/Astral/vendor/mono/lib/Release/libmono-static-sgen.lib"
 
 Library["Vulkan"] = "%{LibraryDir.VulkanSDK}/vulkan-1.lib"
 Library["VulkanUtils"] = "%{LibraryDir.VulkanSDK}/VkLayer_utils.lib"

@@ -6,6 +6,7 @@ project "Sandbox"
 
 	targetdir ("%{wks.location}/bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("%{wks.location}/bin-int/" .. outputdir .. "/%{prj.name}")
+	debugdir "%{wks.location}/Sandbox"
 
 	files
 	{
@@ -15,16 +16,16 @@ project "Sandbox"
 
 	includedirs
 	{
-		"%{wks.location}/Hazel/vendor/spdlog/include",
-		"%{wks.location}/Hazel/src",
-		"%{wks.location}/Hazel/vendor",
+		"%{wks.location}/Astral/vendor/spdlog/include",
+		"%{wks.location}/Astral/src",
+		"%{wks.location}/Astral/vendor",
 		"%{IncludeDir.glm}",
 		"%{IncludeDir.entt}"
 	}
 
 	links
 	{
-		"Hazel"
+		"Astral"
 	}
 
 	filter "system:windows"

@@ -23,15 +23,15 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dist|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v145</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -77,16 +77,16 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="..\..\Hazel-ScriptCore\premake5.lua" />
-    <None Include="..\..\Hazel\premake5.lua" />
-    <None Include="..\..\Hazel\vendor\Box2D\premake5.lua" />
-    <None Include="..\..\Hazel\vendor\GLFW\premake5.lua" />
-    <None Include="..\..\Hazel\vendor\Glad\premake5.lua" />
-    <None Include="..\..\Hazel\vendor\imgui\premake5.lua" />
-    <None Include="..\..\Hazel\vendor\msdf-atlas-gen\msdfgen\premake5.lua" />
-    <None Include="..\..\Hazel\vendor\msdf-atlas-gen\premake5.lua" />
-    <None Include="..\..\Hazel\vendor\yaml-cpp\premake5.lua" />
-    <None Include="..\..\Hazelnut\premake5.lua" />
+    <None Include="..\..\Astral-ScriptCore\premake5.lua" />
+    <None Include="..\..\Astral\premake5.lua" />
+    <None Include="..\..\Astral\vendor\Box2D\premake5.lua" />
+    <None Include="..\..\Astral\vendor\GLFW\premake5.lua" />
+    <None Include="..\..\Astral\vendor\Glad\premake5.lua" />
+    <None Include="..\..\Astral\vendor\imgui\premake5.lua" />
+    <None Include="..\..\Astral\vendor\msdf-atlas-gen\msdfgen\premake5.lua" />
+    <None Include="..\..\Astral\vendor\msdf-atlas-gen\premake5.lua" />
+    <None Include="..\..\Astral\vendor\yaml-cpp\premake5.lua" />
+    <None Include="..\..\AstralCore\premake5.lua" />
     <None Include="..\..\Sandbox\premake5.lua" />
     <None Include="..\..\premake5.lua" />
     <None Include="premake5.lua" />
